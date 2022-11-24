@@ -1,9 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import "./App.scss";
+
+// reminder: install sass -> npm i sass
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Hello World!</h1>
     </div>
   );
